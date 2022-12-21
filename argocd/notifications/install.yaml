@@ -537,12 +537,12 @@ data:
       selector: test=true
       triggers:
       - on-sync-status-unknown
-	  - on-sync-succeeded
+      - on-sync-succeeded
     - recipients:
       - telegram:-1001612674644
       triggers:
       - on-sync-status-unknown
-	  - on-sync-succeeded
+      - on-sync-succeeded
 kind: ConfigMap
 metadata:
   creationTimestamp: null
